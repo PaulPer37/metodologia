@@ -1,0 +1,25 @@
+==================================================
+REPORTE DE EVALUACIÓN: OPENCV + TESSERACT (UBUNTU)
+==================================================
+Fecha: 2025-12-02 21:28:58
+Total Imágenes: 500
+--------------------------------------------------
+1. MÉTRICAS DE DETECCIÓN
+   Precision (P):    1.0000 (Asumido 1.0 en imgs recortadas)
+   Recall (R):       1.0000 (Capacidad de leer algo)
+   F1-Score:         1.0000
+   IoU / mAP:        N/A (Dataset ya recortado - IoU=1.0 implícito)
+--------------------------------------------------
+2. MÉTRICAS DE OCR (RECONOCIMIENTO)
+   PAR (Plate Accuracy):     40.20%  <-- Placas perfectas
+   CAR (Character Accuracy): 87.48%
+   CER (Character Error):    12.53%  <-- Error por letra
+   WER (Word Error Rate):    59.80%
+   Levenshtein Promedio:     1.00 ediciones/placa
+--------------------------------------------------
+3. PIPELINE & RENDIMIENTO
+   E2E Accuracy:     40.20%
+   Tiempo Total:     53.82 seg
+   FPS (Velocidad):  9.29 frames/seg
+   Latencia:         107.64 ms/imagen
+==================================================
